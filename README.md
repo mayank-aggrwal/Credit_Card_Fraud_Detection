@@ -16,7 +16,9 @@ Install Python :
 From [official website](https://www.python.org/downloads/)
 2. Clone this repository to your local machine.
 3. Run the following command for installing all the required dependencies all at once-
-
+```bash
+py -m pip install -r requirements.txt
+```
 4. Download the dataset file creditcard.csv from Kaggle link provided above.
 5. Run fraud_detection.ipynb in a jupyter notebook
 ```bash
